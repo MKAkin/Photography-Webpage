@@ -1,0 +1,73 @@
+#MainBody{
+    /*background-color:grey;*/
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+/* Header */
+#PageHeader{
+    background-color:black;
+    background-image: url("Images/LondonEye2.JPG");
+    background-size: 100%;
+    background-position: center;
+
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
+header .logo{
+    background-image: url("Images/LensBallBlueCircle.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+
+    display: inline-block;
+    text-indent: -999999999px;
+    position: relative;
+    height: 80px;
+    width: 300px;
+}
+header nav ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+header nav ul a{
+    display: inline;
+    text-transform: uppercase;
+    text-align: left;
+    margin-left: 5px;
+    margin-right: 20px;
+    color: black;
+    text-decoration: none;
+}
+header nav ul a:hover{
+    color: #F34B07;
+}
+
+/* Section 1 */
+#Section{
+    background-color: grey;
+/*  background-image: url("Images/LensBallBlue2.jpg"); 
+    background-repeat: no-repeat;
+    background-size: cover; */
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.SectionDiv{
+    background-color: red;
+    margin: auto;
+    width: 100px;
+}
+/* Footer */
+#Footer{
+    background-color: black;
+    color: white;
+    padding: 40px
+}
